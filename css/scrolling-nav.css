@@ -3,9 +3,12 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+}
 header {
-  padding: 154px 0 100px;
+  padding: 104px 0 100px;
   background-color: #ffc1a8;
 }
 
@@ -16,5 +19,13 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
+}
+.mePic {
+  height: 50vh;
+  margin-right: 50px;
+}
+.lead {
+  font-size: 20px;
+  margin-top: 30px;
 }
