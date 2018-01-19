@@ -7,9 +7,9 @@
   display: flex;
   flex-direction: row;
 }
-header {
-  padding: 104px 0 100px;
-  background-color: #ffc1a8;
+#header-here {
+  padding: 140px 0 100px;
+  background-color: #f7b196;
 }
 
 @media (min-width: 992px) {
@@ -25,7 +25,33 @@ section {
   height: 50vh;
   margin-right: 50px;
 }
-.lead {
+#lead {
   font-size: 20px;
   margin-top: 30px;
+}
+#lead2 {
+  font-size: 14px;
+  margin-top: 30px;
+}
+.bg-purple {
+  background-color: #7c7aa1;
+}
+.contactInfo {
+  margin: 20px;
+  align-content: center;
+}
+.myInfo {
+  margin: 10px;
+}
+.myOther {
+  margin: 10px;
+  margin-top: 15px;
+}
+.myIframe {
+  height: 100vh;
+  width: 80vw;
+}
+#navbar-header-text {
+  font-size: 22px;
+  padding: 12px;
 }

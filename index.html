@@ -7,15 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="shortcut icon" href="./pictures/rainbow2.png">
 
-  <title>My Profile</title>
+
+  <!-- CAROUSEL CODE HERE -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- CAROUSEL CODE HERE -->
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <title>Kara Cavanaugh</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
@@ -23,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Kara Cavanaugh</a>
+      <a class="navbar-brand js-scroll-trigger" id="navbar-header-text" href="#page-top">Kara Cavanaugh</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,23 +36,23 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" id="navbar-header-text" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="bg-primary text-white">
+  <header class="bg-primary text-white" id="header-here">
     <div class="container text-center">
       <h1>Welcome to My Profile!</h1>
-      <p class="lead">I enjoy creating unique, thoughtful websites. Let me know if you like what you see!</p>
+      <p id="lead">I enjoy creating unique, thoughtful websites. Let me know if you like what you see!</p>
     </div>
   </header>
 
@@ -58,16 +63,16 @@
           <h2>About Me</h2>
           <div class="mainHeader">
             <img src="./pictures/me-pic.jpg" class="mePic">
-            <p class="lead">I'm an aspiring web developer- born and raised in Albany, NY, but always on the move! After ten years working
+            <p id="lead">I'm an aspiring web developer- born and raised in Albany, NY, but always on the move! After ten years working
               jobs I couldn't get passionate about, I finally made a change and flew out to beautiful Dallas, TX to enroll
               in an immersive web development program. Please take a look at some of the full stack web applications I've
               worked on while you're here :&#41 !
             </p>
-            <ul>
+            <ul id="lead2">
               <li>I have a bachelor's in philosophy from SUNY Albany</li>
               <li>My hobbies include playing piano and swordfighting</li>
               <li>The best thing about web development is creating something beautiful without being able to draw. (I really
-                can't draw. Not a dog, not a tree. Tragic. &#41</li>
+                can't draw. Not a dog, not a tree. Tragic.&#41</li>
             </ul>
           </div>
         </div>
@@ -75,34 +80,107 @@
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="services" class="bg-purple">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus
-            ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        <div class="col-lg-10 mx-auto">
+          <h2>Projects</h2>
+          <h3 class="lead">Gateway Mentoring Store</h3>
+          <iframe src="http://www.karacavanaugh.us/" class="myIframe"></iframe>
+
+          <h4>This was my first React application, which is a website for a tutoring company which also sells merchandise. I
+            incorporated Stripe for payments and Auth0 for logins. The website was built for use by a company in Boston which
+            outlined the color scheme and overall design. </h4>
         </div>
+
       </div>
+      <div>
+        <div class="col-lg-10 mx-auto">
+          <h3 class="lead">Q-2</h3>
+          <!-- <iframe src="http://q2.devmountain.review" class="myIframe"></iframe> -->
+          <!-- THIS IS THE CAROUSEL  -->
+
+          <!-- THIS IS WHERE THE CAROUSEL GOES -->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./pictures/login.png" alt="Q2-home">
+              </div>
+
+              <div class="item">
+                <img src="./pictures/2-questionView.png" alt="Q2-Question-View">
+              </div>
+
+
+
+              <div class="item">
+                <img src="./pictures/4-mentorView.png" alt="Q2-Mentor-View">
+              </div>
+              <div class="item">
+                <img src="./pictures/allCharts.png" alt="Q2-Charts">
+              </div>
+
+              <div class="item">
+                <img src="./pictures/color-picker.png" alt="Q2-Special-Options">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <!-- THIS IS WHERE THE CAROUSEL GOES -->
+        <!--  CAROUSEL ENDS -->
+      </div>
+    </div>
     </div>
   </section>
 
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis,
-            id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        <div class="col-lg-9 mx-auto">
+          <h2>Want to talk?</h2>
+          <p class="lead">I'm always looking for opportunities to collaborate. I'd like to contribute to your vision!</p>
+          <div class="mainHeader">
+            <h4 class="myInfo">Phone:</h4>
+            <p class="myOther">(518)431-9892</p>
+            <h4 class="myInfo">Email:</h4>
+            <p class="myOther">karacav@msn.com</p>
+          </div>
+          <div class="mainHeader">
+            <h4 class="myInfo">Github:</h4>
+            <p class="myOther">https://github.com/KaraCav</p>
+            <h4 class="myInfo">LinkedIn:</h4>
+            <p class="myOther">https://www.linkedin.com/in/kara-cavanaugh/</p>
+          </div>
+
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Kara Cavanaugh 2018</p>
     </div>
     <!-- /.container -->
   </footer>
