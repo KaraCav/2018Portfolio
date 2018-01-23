@@ -26,11 +26,11 @@ section {
   margin-right: 50px;
 }
 #lead {
-  font-size: 20px;
+  font-size: 24px;
   margin-top: 30px;
 }
 #lead2 {
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 30px;
 }
 .bg-purple {
@@ -42,16 +42,23 @@ section {
 }
 .myInfo {
   margin: 10px;
+  font-size: 20px;
 }
 .myOther {
   margin: 10px;
-  margin-top: 15px;
+  margin-top: 10px;
+  font-size: 16px;
 }
 .myIframe {
   height: 100vh;
-  width: 80vw;
+  width: 93vw;
 }
 #navbar-header-text {
   font-size: 22px;
   padding: 12px;
+}
+.myHr {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 92vw;
 }

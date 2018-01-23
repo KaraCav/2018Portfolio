@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="./pictures/rainbow2.png">
+  <link rel="shortcut icon" href="./pictures/star-favicon.ico">
 
 
   <!-- CAROUSEL CODE HERE -->
@@ -59,19 +59,22 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 mx-auto">
+        <div>
           <h2>About Me</h2>
           <div class="mainHeader">
+
             <img src="./pictures/me-pic.jpg" class="mePic">
-            <p id="lead">I'm an aspiring web developer- born and raised in Albany, NY, but always on the move! After ten years working
-              jobs I couldn't get passionate about, I finally made a change and flew out to beautiful Dallas, TX to enroll
-              in an immersive web development program. Please take a look at some of the full stack web applications I've
-              worked on while you're here :&#41 !
-            </p>
+            <div class="pic-and-about">
+              <p id="lead">I'm an aspiring web developer- born and raised in Albany, NY, but always on the move! After ten years working
+                jobs I couldn't get passionate about, I finally made a change and flew out to beautiful Dallas, TX to enroll
+                in an immersive web development program. Please take a look at some of the full stack web applications I've
+                worked on while you're here :&#41 !
+              </p>
+            </div>
             <ul id="lead2">
               <li>I have a bachelor's in philosophy from SUNY Albany</li>
               <li>My hobbies include playing piano and swordfighting</li>
-              <li>The best thing about web development is creating something beautiful without being able to draw. (I really
+              <li>The best thing about web development is creating something beautiful without being able to draw. </br>(I really
                 can't draw. Not a dog, not a tree. Tragic.&#41</li>
             </ul>
           </div>
@@ -83,9 +86,9 @@
   <section id="services" class="bg-purple">
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>Projects</h2>
-          <h3 class="lead">Gateway Mentoring Store</h3>
+        <div class="col-lg-12 mx-auto">
+          <p id="lead">Projects</p>
+          <p id="lead2">Gateway Mentoring Store</p>
           <iframe src="http://www.karacavanaugh.us/" class="myIframe"></iframe>
 
           <h4>This was my first React application, which is a website for a tutoring company which also sells merchandise. I
@@ -94,45 +97,48 @@
         </div>
 
       </div>
+      <hr class="myHr" />
       <div>
         <div class="col-lg-10 mx-auto">
-          <h3 class="lead">Q-2</h3>
+          <h3 id="lead2">Q-2</h3>
           <!-- <iframe src="http://q2.devmountain.review" class="myIframe"></iframe> -->
           <!-- THIS IS THE CAROUSEL  -->
+          <div class="row">
 
-          <!-- THIS IS WHERE THE CAROUSEL GOES -->
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-              <li data-target="#myCarousel" data-slide-to="3"></li>
-              <li data-target="#myCarousel" data-slide-to="4"></li>
+            <!-- THIS IS WHERE THE CAROUSEL GOES -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
 
-            </ol>
+              </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="./pictures/login.png" alt="Q2-home">
-              </div>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="./pictures/login.png" alt="Q2-home">
+                </div>
 
-              <div class="item">
-                <img src="./pictures/2-questionView.png" alt="Q2-Question-View">
-              </div>
+                <div class="item">
+                  <img src="./pictures/2-questionView.png" alt="Q2-Question-View">
+                </div>
 
 
 
-              <div class="item">
-                <img src="./pictures/4-mentorView.png" alt="Q2-Mentor-View">
-              </div>
-              <div class="item">
-                <img src="./pictures/allCharts.png" alt="Q2-Charts">
-              </div>
+                <div class="item">
+                  <img src="./pictures/4-mentorView.png" alt="Q2-Mentor-View">
+                </div>
+                <div class="item">
+                  <img src="./pictures/allCharts.png" alt="Q2-Charts">
+                </div>
 
-              <div class="item">
-                <img src="./pictures/color-picker.png" alt="Q2-Special-Options">
+                <div class="item">
+                  <img src="./pictures/color-picker.png" alt="Q2-Special-Options">
+                </div>
               </div>
             </div>
 
@@ -159,7 +165,7 @@
       <div class="row">
         <div class="col-lg-9 mx-auto">
           <h2>Want to talk?</h2>
-          <p class="lead">I'm always looking for opportunities to collaborate. I'd like to contribute to your vision!</p>
+          <p class="myInfo">I'm always looking for opportunities to collaborate. I'd like to contribute to your vision!</p>
           <div class="mainHeader">
             <h4 class="myInfo">Phone:</h4>
             <p class="myOther">(518)431-9892</p>
@@ -180,7 +186,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Kara Cavanaugh 2018</p>
+      <p class="m-0 text-center text-white myOther">Copyright &copy; Kara Cavanaugh 2018</p>
     </div>
     <!-- /.container -->
   </footer>
