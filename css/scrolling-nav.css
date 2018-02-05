@@ -21,52 +21,7 @@
 section {
   padding: 100px 0;
 }
-.mePic {
-  height: 50vh;
-  margin-right: 20px;
-}
-#lead {
-  font-size: 22px;
-  margin-top: 30px;
-}
-#lead2 {
-  font-size: 16px;
-}
+
 .bg-purple {
   background-color: #7c7aa1;
-}
-.contactInfo {
-  margin: 20px;
-  align-content: center;
-}
-.myInfo {
-  margin: 10px;
-  font-size: 20px;
-}
-.myOther {
-  margin: 10px;
-  margin-top: 10px;
-  font-size: 16px;
-}
-.myIframe {
-  height: 100vh;
-  width: 88vw;
-}
-#navbar-header-text {
-  font-size: 22px;
-  padding: 12px;
-}
-.myHr {
-  margin-top: 40px;
-  margin-bottom: 50px;
-  width: 92vw;
-}
-
-.about-projects {
-  width: 80vw;
-  text-align: center;
-  font-size: 18px;
-  margin-left: 3vw;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
 }
