@@ -25,3 +25,8 @@ section {
 .bg-purple {
   background-color: #835678;
 }
+#my-site-url {
+  color: #22252a;
+  text-decoration: none;
+  background-color: transparent;
+}
