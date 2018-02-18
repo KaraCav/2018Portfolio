@@ -9,7 +9,7 @@
 }
 #header-here {
   padding: 140px 0 100px;
-  background-color: #f7b196;
+  background-color: #f1a79d;
 }
 
 @media (min-width: 992px) {
@@ -23,5 +23,5 @@ section {
 }
 
 .bg-purple {
-  background-color: #7c7aa1;
+  background-color: #835678;
 }
