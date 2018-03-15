@@ -30,3 +30,7 @@ section {
   text-decoration: none;
   background-color: transparent;
 }
+.flex {
+  display: flex;
+  flex-direction: column;
+}
